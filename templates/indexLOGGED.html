@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>LionHearth®| Private WoW Server</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="/static/css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" type="text/css" href="static/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="static/slick/slick-theme.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../bootstrap/js/jquery.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+	<script src="/static/bootstrap/js/jquery.js"></script>
+	<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+	
+  
+  
+	<style>
+	
+	body{
+	font-family:'Lato',sans-serif;
+	font-size:40px;
+	color:white;
+	 background-size: cover; 
+		  background-size: 100% 100%;
+		  margin: 0px;
+		  font-family:Arial;
+		  z-index:-1;
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	  .slider {
+    width: auto;
+	padding:0px 200px;
+	padding-bottom:40px;
+   
+}
+
+.slick-slide {
+    background: $c1;
+    color: white;
+    padding: 40px 0;
+    font-size: 30px;
+    font-family: "Arial", "Helvetica";
+    text-align: center;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+    color: black;    
+}
+
+
+
+.slick-slide:nth-child(odd) {
+     background: $c2;
+}
+
+.slick-center {
+  font-size: 3em;
+}
+	
+
+	
+		.vanila{
+		width:auto;
+		height:670px;
+		position: relative;
+		background-image: url("static/images/vanila.jpg");
+		background-size: cover; 
+		
+		}
+		
+		.tbc{
+		width:auto;
+		height:670px;
+		position: relative;
+		background-image: url("static/images/tbc.jpg");
+		background-size: cover; 
+		}
+		
+		.wotlk{
+		width:auto;
+		height:670px;
+		position: relative;
+		background-image: url("static/images/wotlk.jpg");
+		background-size: cover; 
+		}
+		
+		.cataclysm{
+		width:auto;
+		height:670px;
+		position: relative;
+		background-image: url("static/images/cata.jpg");
+		background-size: cover; 
+		}
+		
+		.mop{
+		width:auto;
+		height:670px;
+		position: relative;
+		background-image: url("static/images/mop.jpg");
+		background-size: cover; 
+		}
+		
+		.wod{
+		width:auto;
+		height:670px;
+		position: relative;
+		background-image: url("static/images/wod.jpg");
+		background-size: cover; 
+		}
+		
+		.legoion{
+		width:auto;
+		height:670px;
+		position: relative;
+		background-image: url("static/images/legion.jpg");
+		background-size: cover; 
+		}
+		
+		
+		.img1 {
+		float: left;
+		}
+		
+		.img2 {
+		float: right;
+		}
+		
+		
+	</style>
+	  
+</head>
+<body>
+
+
+	<div class="topnav" id="myTopnav">
+		<a href="{{ url_for('index') }}">Lion Heart®</a>
+		<a href="{{ url_for('download') }}" method="post"" >JOIN US</a>
+		<a href="{{ url_for('changelogs') }}">CHANGELOGS</a>
+		<a href="{{ url_for('shop') }}">SHOP</a>
+		<a href="http://lhwc.freeforums.net">FORUM</a>
+
+		<a href="{{ url_for('account') }}">ACCOUNT</a>
+		<a href="{{ url_for('logout') }}"style="float:right;" class="logInOut">SIGN OUT</a>
+		<a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 <div class="slider">
+    <div><a href="#vanila"><img src="static/images/retail1.jpg" height="490px" width="280px" ></div></a>
+    <div><a href="#tbc"><img src="static/images/retail2.jpg" height="490px" width="280px" ></div></a>
+    <div><a href="#wotlk"><img src="static/images/retail3.jpg" height="490px" width="280px" ></div></a>
+	<div><a href="#cataclysm"><img src="static/images/retail4.png" height="490px" width="280px" ></div></a>
+    <div><a href="#mop"><img src="static/images/retail5.jpg" height="490px" width="280px" ></div></a>
+	<div><a href="#wod"><img src="static/images/retail6.jpg" height="490px" width="280px" ></div></a>
+    <div><a href="#legion"><img src="static/images/retail7.jpg" height="490px" width="280px" ></div></a>
+	</div>
+
+	
+	
+
+	<div class="vanila" id="vanila">
+	
+	<p style="text-align:center;"><img src="static/images/retail1.jpg" height="670px" align="left" class="img">
+	<br>VANILA
+<br>
+<br>
+	World of Warcraft (WoW) is a massively multiplayer online role-playing game(MMORPG) released in 2004 by Blizzard Entertainment.
+	
+	</p>
+	
+	</div>
+	
+	<div class="tbc" id="tbc">
+<p style="text-align:center;">	<img src="static/images/retail2.jpg" height="670px" align="right">
+
+<br>THE BURNING CRUSADE
+<br>
+<br>
+Two new playable races were added to World of Warcraft in The Burning Crusade: the Draenei of the Alliance and the Blood Elves of the Horde. with the new races, the expansion allowed players to be a Draenei shaman (Alliance), and a Blood Elf paladin (Horde).
+
+
+	</p>
+	</div>
+	
+	<div class="wotlk" id="wotlk">
+	<p style="text-align:center;"><img src="static/images/retail3.jpg" height="670px"  align="left">
+	<br>WRATH OF THE LICH KING
+	<br>
+	<br>
+	The game added a substantial amount of new content into the game world, including the new continent of Northrend, home of the eponymous Lich King and his undead minions. The first hero class was introduced, the Death Knight, that starts at level 55.</p>
+	
+	</div>
+	
+	<div class="cataclysm" id="cataclysm">
+	<p style="text-align:center;"><img src="static/images/retail4.png" align="right" height="670px">
+	<br>CATACLYSM
+	<br>
+	<br>	
+	 Two new playable races have been added, the Worgen for the Alliance and Goblins for the Horde. In addition, existing classes have been expanded to be available to more races. The major cities of Orgrimmar and Stormwind experienced major changes. Lastly, the existing talent system has been overhauled.
+	 </p> </div>
+	
+	<div class="mop" id="mop">
+	<p style="text-align:center;"><img src="static/images/retail5.jpg" height="670px"  align="left">
+	<br>MISTS OF PANDARIA
+<br>
+<br>	
+	<br>Mists of Pandaria raised the existing level cap from level 85 to 90. It introduced a new character class, the monk, along with a new playable race, the Pandaren. The vanity pet system was overhauled and a pet battle system was added. Scenarios were introduced, and Challenge Modes were added for dungeons. 
+	</p>
+	</div>
+	
+	
+	
+	
+	<div class="wod" id="wod">
+	<p style="text-align:center;">
+	<img src="static/images/retail6.jpg" align="right" height="670px">
+		<br>WARLORDS OF DRAENOR
+<br>
+<br>	The expansion allows players to level up to 100, an increase from the cap of 90 in the previous expansion Mists of Pandaria. It initially included eight 5-man dungeons and one raid, Highmaul, that opened in early December 2014. There was also a rebalancing of raid difficulty by the addition of a new difficulty called Mythic,</p>
+	</div>
+	
+	<div class="legoion" id="legion">
+	<p style="text-align:center;"><img src="static/images/retail7.jpg" height="670px"  align="left">
+	<br>LEGION
+<br>
+<br>
+	
+	The expansion raises the existing level cap from 100 to 110, features artifact weapons for each class's specializations, includes a new area on Azeroth called the Broken Isles and introduces the demon hunter hero class that starts at level 98. It initially included ten 5-man dungeons and two raids.
+	</p>
+	</div>
+	<!--carousel-->
+	
+	<form role="form" action="login" method="post" >
+		<div class="modal fade " id="modal-login" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">SIGN IN</h4>
+					</div>
+					<div class="modal-body">
+						<div class="input-group" style="width:100%">
+							<span class="input-group-addon" id="basic-addon1" style="width:90px;text-align: left;">Username:</span>
+							<input type="text" class="form-control" value="" aria-describedby="basic-addon1"style="{color:black;!important}"  name="username">
+						</div>
+						<br>
+						<div class="input-group" style="width:100%">
+							<span class="input-group-addon " id="basic-addon1" style="width:90px;text-align: left;">Password:</span>
+							<input type="password" class="form-control" value="" aria-describedby="basic-addon1" style="{color:black;!important}" name="password">
+						</div>
+						<br>
+					</div>
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-info">Send</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+
+
+	
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="static/slick/slick.min.js"></script>
+	
+	<script type="text/javascript">
+   $('.slider').slick({
+  centerPadding: '1px',
+    slidesToShow: 3,
+	focusOnSelect:true,
+  arrows:false,
+  dots:false,
+  autoplay:true,
+  autoplaySpeed:1500,
+  pauseOnHover:false,
+  
+  responsive: [
+    {
+      breakpoint: 500,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 1
+      }
+    },
+  
+  ]
+});
+ 
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+	<video autoplay loop id="video-bg" muted plays-inline >
+		<source src="/static/videos/bg-video.mp4" type="video/mp4">
+	</video>
+</body>
+</html>

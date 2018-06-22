@@ -1,0 +1,86 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>LionHearth®| Private WoW Server</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="/static/css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<script src="/static/bootstrap/js/jquery.js"></script>
+	<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+	<style>
+		body {
+		 
+		  background-size: cover; 
+		  background-size: 100% 100%;
+		  margin: 0px;
+		  font-family:Arial;
+		  z-index:-1;
+		background:black;
+		background-position:center !Important; 
+		}
+		.karakteri{
+		background-color:black;
+		opacity:0.9;
+		position:relative;
+		margin:3%;
+		width:80%%;
+		height:80%%;
+		padding:20px;
+		}
+	</style>
+</head>
+<body>
+		<div class="topnav" id="myTopnav">
+		<a href="{{ url_for('index') }}">Lion Heart®</a>
+		<a href="{{ url_for('download') }}" method="post"" >JOIN US</a>
+		<a href="{{ url_for('changelogs') }}">CHANGELOGS</a>
+		<a href="{{ url_for('shop') }}">SHOP</a>
+		<a href="http://lhwc.freeforums.net">FORUM</a>
+
+		<a href="{{ url_for('account') }}">ACCOUNT</a>
+		<a href="{{ url_for('logout') }}"style="float:right;" class="logInOut">SIGN OUT</a>
+		<a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	<div class="karakteri">
+	 <table class="tabla" style="color:white; border:5px; border-color:gold;">
+                    
+                      <tr border="5px" border-color="gold">
+			<td width="50px" height="50px"></td>
+                        <td width="150px" height="50px">Name:</td>
+			<td width="150px" height="50px">Race:</td>
+			<td width="150px" height="50px">Class:</td>
+			<td width="150px" height="50px">Spec:</td>
+                      
+                      </tr>
+
+			
+	{% for char in characters %}
+	<tr>
+		<td width="50px" height="50px"><img src="{{ char[0] }}"></td>
+		<td width="150px" height="50px">{{ char[1] }}</td>
+		<td width="150px" height="50px">{{ char[2] }}</td>
+		<td width="150px" height="50px">{{ char[3] }}</td>
+		<td width="150px" height="50px">{{ char[4] }}</td>
+	</tr>
+	{% endfor %}
+	</table>
+	</div>
+	
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+</body>
+</html>

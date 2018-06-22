@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>hehexd</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="/static/css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<script src="/static/bootstrap/js/jquery.js"></script>
+	<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+   <div class="topnav" id="myTopnav">
+		<a href="{{ url_for('index') }}">Lion Heart®</a>
+		<a href="{{ url_for('download') }}" method="post"" >JOIN US</a>
+		<a href="{{ url_for('changelogs') }}">CHANGELOGS</a>
+		<a href="{{ url_for('shop') }}">SHOP</a>
+		<a href="http://lhwc.freeforums.net">FORUM</a>
+
+		<a href="{{ url_for('account') }}">ACCOUNT</a>
+		<a href="{{ url_for('logout') }}"style="float:right;" class="logInOut">SIGN OUT</a>
+		<a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	
+	<div class="container-fluid download">
+ 		<h1 class="downloadH1" align="center">HOW TO CONNECT</h1>
+		<hr>
+ 		<ul class="downloadP1">
+ 			<p>Hello dear players.</p>
+ 			<p>This is a simple and detailed instruction topic on how to connect to LIONHEARTH</p>
+			<p>What do you need :</p>
+ 			<p>Game Account: Register <a href="{{ url_for('register') }}">here</a></p>
+			<p>Download World of Warcraft Classic ( 1.12.1 ):</p>
+				<p>Torrent (Installer)(Magnet link): <a>Here</a></p>
+				<p>OR</p>
+				<p>Torrent (RAR Archive)(Magnet link): <a>Here</a></p>
+			<p>if you dont know how to download with torrent do this:</p>
+			<p>1. Go to this site: <a href="http://www.utorrent.com/">http://www.utorrent.com/</a></p>
+			<p>2. Download it and install</p>
+			<p>3. Click the torrent link above</p>
+			<p>4. Download the torrent file.</p>
+			<p>5. Open it with utorrent</p>
+			<p>6. Select folder to download it to.</p>
+			<p>7. Wait for it to finish !</p>
+			<p>8. Go to the folder where you downloaded it to.</p>
+			<p>9. double click setup.exe</p>
+			<p>10. Wait for the install to finish.</p>
+			<p>11. Delete WTF, and WDB folders. ( Optional )</p>
+			<p>12. login and play!</p>
+			<hr>
+			<p align="center">RealmList</p>
+			<p>1. Open Realmlist.wtf in your World of Warcraft Installation folder with Notepad and overwrite all text there with this :</p>
+			<p>2. Set Realmlist logon.lionhearthwow.org</p></p>
+		</ul>
+	</div>
+	<div class="container-fluid">
+		<iframe class="discordapp" src="https://discordapp.com/widget?id=305069268322484225&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+	</div>
+<form role="form" action="login" method="post" >
+		<div class="modal fade " id="modal-login" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">SIGN IN</h4>
+					</div>
+					<div class="modal-body">
+						<div class="input-group" style="width:100%">
+							<span class="input-group-addon" id="basic-addon1" style="width:90px;text-align: left;">Username:</span>
+							<input type="text" class="form-control" value="" aria-describedby="basic-addon1"style="{color:black;!important}"  name="username">
+						</div>
+						<br>
+						<div class="input-group" style="width:100%">
+							<span class="input-group-addon " id="basic-addon1" style="width:90px;text-align: left;">Password:</span>
+							<input type="password" class="form-control" value="" aria-describedby="basic-addon1" style="{color:black;!important}" name="password">
+						</div>
+						<br>
+					</div>
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-info">Send</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+	<video autoplay loop id="video-bg" muted plays-inline >
+		<source src="/static/videos/bg-video.mp4" type="video/mp4">
+	</video
+  </body>
+</html>

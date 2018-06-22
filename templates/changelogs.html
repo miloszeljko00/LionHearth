@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>LionHearth®| Private WoW Server</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="/static/css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<script src="/static/bootstrap/js/jquery.js"></script>
+	<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+   <div class="topnav" id="myTopnav">
+		<a href="{{ url_for('index') }}">Lion Heart®</a>
+		<a href="{{ url_for('download') }}" method="post"" >JOIN US</a>
+		<a href="{{ url_for('changelogs') }}">CHANGELOGS</a>
+		<a href="{{ url_for('shop') }}">SHOP</a>
+		<a href="http://lhwc.freeforums.net">FORUM</a>
+
+		<a href="{{ url_for('account') }}">ACCOUNT</a>
+		<a href="" data-toggle="modal" data-target="#modal-login" style="float:right;" class="logInOut">SIGN IN</a>
+		<a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	<div class="container-fluid download">
+ 		
+
+  <div class="post box-shadow-insert edit1">
+    <div class="post_header clearfix">
+        <div id="admin"></div>
+    </div>
+  	<div class="post_body_news">
+  		<p style="text-align: center;"><img src="/static/images/pvp.jpg" alt="PvP Balance Part 1 - Crowd Controls &amp; Diminishing Returns" width="75%" height="30%"></p><br>
+<p style="text-align: center;"><strong>Sargeras 7.1.5</strong></p><br>
+<p style="text-align: left;">The changelog is not full, other changes can be appliend and more comming within next days/weeks.</p><br>
+<p style="text-align: left;"><strong>Overall Changes</strong>:<br>- The <strong>Diminishing Returns</strong> system cooldown has been <strong>reduced from 40 sec to 30 sec</strong>.<br>-&nbsp;<strong>Latency reduced</strong> in PvP areas and capital cities. CC abilties are show up more fluent.</p><br>
+<p><span style="color: #996c28;"><strong>Warrior:<br></strong>-<span style="color: #d6b058;">Intimidating Shout</span></span>:&nbsp;The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 8/4/2 sec to 6/3/1.5 sec</strong>. <br>-<span style="color: #d6b058;">Storm Bolt</span>: The <strong>CC</strong>&nbsp;duration has been <strong>increased from 3/1.5/0.75 sec to 4/2/1 sec</strong>. <br>-<span style="color: #d6b058;">Shockwave</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 4/2/1 sec to 3/1.5/0.75 sec</strong>. <br>-<span style="color: #d6b058;">Charge</span>: The <strong>CC</strong>&nbsp;duration has been <strong>increaset from 0.5 sec to 1 sec</strong>. <br>-<span style="color: #d6b058;">Disarm</span>:&nbsp;The <strong>CC</strong>&nbsp;duration has been <strong>increased from 6/3/1.5 sec to 8/4/2 sec</strong>. <br>-<span style="color: #d6b058;">Pummel</span>:&nbsp;The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 6 sec to 4 sec</strong>.</p><br>
+<p><strong><span style="color: #f58cba;">Paladin</span>:<br></strong>-<span style="color: #d6b058;">Hammer of Justice</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 8/4/2 sec to 6/3/1.5 sec</strong>. <br>-<span style="color: #d6b058;">Repentance</span>: The <strong>CC</strong>&nbsp;duration has been <strong>increased from 6/3/1.5 sec to 8/4/2 sec</strong>. <br>-<span style="color: #d6b058;">Hand of Hindrance</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 12 sec to 10 sec</strong>. <br>-<span style="color: #d6b058;">Rebuke</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 6 sec to 4 sec</strong>.</p><br>
+<p><strong><span style="color: #abd473;">Hunter</span>:<br></strong>-<span style="color: #d6b058;">Bursting Shot</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 6 sec to 3 sec.&nbsp;</strong> <br>-<span style="color: #d6b058;">Scatter Shot</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 6 sec to 3 sec</strong>. <br>-<span style="color: #d6b058;">Wyvern Sting</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 6/3/1.5 sec to 4/2/1 sec</strong>. <br>-<span style="color: #d6b058;">Counter Shot</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 4 sec to 3 sec</strong>.</p><br>
+<p><strong><span style="color: #fff569;">Rogue</span>:<br></strong>-<span style="color: #d6b058;">Blind</span>: The <strong>CC</strong>&nbsp;duration has been <strong>increased&nbsp;from 6/3/1.5 sec to 8/4/2 sec</strong>. <br>-<span style="color: #d6b058;">Cheap Shot</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 6/4/2 sec to 4/2/1 sec</strong>. <br>-<span style="color: #d6b058;">Gouge</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 4/2/1 sec to 3/1.5/0.75 sec</strong>. <br>-<span style="color: #d6b058;">Kick</span>: The <strong>CC</strong>&nbsp;duration has been <strong>increased from 4 sec to 5 sec</strong>.</p><br>
+<p><strong><span style="color: #ffffff;">Priest</span>:<br></strong>-<span style="color: #d6b058;">Psychic Scream</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 8/4/2 sec to 6/3/1.5 sec</strong>. <br>-<span style="color: #d6b058;">Silence</span>: The <strong>CC</strong>&nbsp;duration has been <strong>increased from 4 sec to 5 sec</strong>.</p><br>
+<p><strong><span style="color: #a330c9;">Warlock</span>:<br></strong>-<span style="color: #d6b058;">Seduction</span>: The <strong>CC</strong>&nbsp;duration has been <strong>increased from 6/3/1.5 sec to 8/4/2 sec</strong>. <br>-<span style="color: #d6b058;">Fear</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 8/4/2 sec to 6/3/1.5 sec</strong>. <br>-<span style="color: #d6b058;">Howl of Terror</span>: The <strong>CC</strong>&nbsp;duration has been <strong>increased from 4/2/1 sec to 6/3/1.5 sec</strong>.</p><br>
+<p><strong><span style="color: #00ff96;">Monk</span>:<br></strong>-<span style="color: #d6b058;">Paralysis</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 6/3/1.5 sec to 4/2/1 sec</strong>. <br>-<span style="color: #d6b058;">Disable</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 8/4/2 sec to 3/1.5/0.75 sec</strong>.</p><br>
+<p><strong><span style="color: #a330c9;">Demon Hunter</span>:<br></strong>-<span style="color: #d6b058;">Inprison</span>: The <strong>CC</strong>&nbsp;duration has been <strong>reduced from 8/4/2 sec to 3/1.5/0.75 sec</strong>.</p>
+       	<hr>
+        <div id="info" class="clearfix text-shadow">
+        	<p id="post"></p>
+			<div style="width: 100%; text-align: left; display: inline-block;">
+            
+			</div>
+        </div>
+    </div>
+  </div> 
+
+  <div class="post box-shadow-inset">
+    <div class="post_header clearfix">
+        <div id="admin"></div>
+    </div>
+  	<div class="post_body_news">
+  		<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/static/images/chapter1.jpg" alt="Balance of Power - Chapter 1" width="75%" height="30%"></p><br>
+<p style="text-align: center;"><strong>Sargeras 7.1.5</strong></p><br>
+<p><strong>Balance of Power Questline:</strong><br>First Chapter has been added. Completing this questline needed to unlock your Legendary Artifact Skins.<br>Starting Quest: The Power Within</p><br>
+<p><strong>Here is the list with the unlockable skins:</strong><br>- Flamereaper, Valormaw, and Unbroken Stand (For Warriors)<br>- Protector's Judgment, Divine Protector, and Burning Reprisal (For Paladins)<br>- Elekk's Thunder, Phoenix's Rebirth, and Spear of the Alpha (For Hunters)<br>- Heartstopper, Flame's Kiss, and Demon's Embrace (For Rogues)<br>- Chalice of Light, Keeper of Light, and The Fallen Blade (For Priests)<br>- Earthspeaker, Legion's Doom, and Titanborn (For Shamans)<br>- Magna Unleashed, Phoenix's Rebirth, and Flow of the First (For Mages)<br>- Soul Siphon, Pride of the Pit Lord, and Echo of Gul'dan (For Warlocks)<br>- Heart of the Ox, Chi-ji's Spirit, and Spirit's Reach (For Monks)<br>- Lunarcall, Primal Stalker, Avatar of Ursol, and Crystalline Awakening (For Druids)<br>- Darkenblade and Dreadlord's Bite (For Demon Hunters)<br>- Soulreaper, Sindragosa's Fury, and Herald of Pestilence. (For Death Knights)</p><br>
+<p><strong>Chapter 1 Requirements:</strong><br>- Complete the "<span style="color: #d6b058;"><a style="color: #d6b058;" title="Behind Legion Lines" href="http://www.wowhead.com/achievement=10763/azsuna-matata">Behind Legion Lines</a></span>" and "<span style="color: #d6b058;"><a style="color: #d6b058;" title="Defending Azurwing Repose" href="http://www.wowhead.com/achievement=10763/azsuna-matata">Defending Azurwing Repose</a></span>" Chapters in Azsuna.<br>- Complete the "<span style="color: #d6b058;"><a style="color: #d6b058;" title="A Glorious Campaign" href="http://www.wowhead.com/achievement=10994/a-glorious-campaign">A Glorious Campaign</a></span>" achievement.</p><br>
+<p style="text-align: left;">Frequently Asked Questions:</p><br>
+<p style="text-align: left;"><strong>Where i can complete "<span style="color: #d6b058;"><a style="color: #d6b058;" title="A Glorious Campaign" href="http://www.wowhead.com/achievement=10994/a-glorious-campaign">A Glorious Campaign</a></span>" achievement?</strong><br>- At Dalaran in Krasus' Landing, after you completed the "<span style="color: #d6b058;"><a style="color: #d6b058;" title="Part of History" href="http://www.wowhead.com/achievement=10853/part-of-history">Part of History</a></span>" achievement.</p><br>
+<p style="text-align: left;"><strong>Where i can start the Questline?</strong><br>- At your Order Hall. If you are eligible to start the questline, <span style="color: #d6b058;"><a style="color: #d6b058;" title="Archmage Kalec" href="http://www.wowhead.com/npc=110773/archmage-kalec">Archmage Kalec</a></span> has been spawned at your Order Hall.</p>
+       	<hr>
+        <div id="info" class="clearfix text-shadow">
+        	<p id="post"></p>
+			<div style="width: 100%; text-align: left; display: inline-block;">
+            
+			</div>
+        </div>
+    </div>
+  </div> 
+
+  <div class="post box-shadow-inset">
+    <div class="post_header clearfix">
+        <div id="admin"></div>
+    </div>
+  	<div class="post_body_news">
+  		<p style="text-align: center;"><img src="/static/images/march.jpg" alt="Changelog - March" width="75%" height="30%"></p><br>
+<p style="text-align: center;"><strong>Sargeras 7.1.5</strong></p><br>
+<p><strong>You can now claim your Artifact Weapons from your Class Hall leader at Dalaran in Krasus' Landing:</strong><br>- For Warriors: Hymdall<br>- For Paladins: Lord Maxwell Tyrosus<br>- For Hunters: Grif Wildheart<br>- For Rogues: Lord Jorach Ravenholdt<br>- For Priests: Prophet Velen<br>- For Shamans: Thrall<br>- For Mages: Meryl Firestorm<br>- For Warlocks: Calydus<br>- For Monks: Iron-Body Ponshu<br>- For Druids: Archdruid Hamuul Runetotem<br>- For Demon Hunters: Kayn Sunfury<br>- For Death Knights: Duke Lankral</p><br>
+<p><strong>Order Halls:</strong><br>- At Dalaran in Krasus' Landing, you can start the series of quests that will send you to the Class Hall where you can start Questing at Broken Shore.<br>- All Followers added to the Order Halls. You can acquire them with completin they quests.<br>- All teleport destination location has been fixed, so now they are teleport you to the retail coordinates.<br>- You can now easily recomplete Furthering Knowledge quest.<br>- The unnecessary campaign quests are deleted from the Order Halls.<br>- You cannot go to Order Hall before level 98 anymore. (If you enter to the Order Hall somehow, you automatically summoned out from there.)<br>- You cannot go to another Class Order Halls anymore. (Only your own class.)<br>- Archmage Kalec has been spawned in all Order Halls. (He give you the first quest of the Legendary Artifact Weapon Skin Questline.)</p><br>
+<p><strong><span style="color: #c79c6e;">Warrior</span>:</strong><br>- You can now claim "Battlelord " title from your Class Hall leader at Dalaran in Krasus' Landing. The quest acceptable only if you have the Part of History achievement.<br>- Aerylia fixed. Now you can jump down from the Order Hall to the following zones: Azsuna, Val'sharah, Highmountain, Stormheim, Suramar, Dalaran.<br>- Skyjump areas fixed. You can jump up to the Skyhold from the following zones: Azsuna, Val'sharah, Highmountain, Stormheim, Suramar, Dalaran.<br>- Missing emotes, waypoints and cosmetics on NPC-s and Object-s added.</p><br>
+<p><strong><span style="color: #f58cba;">Paladin</span>:</strong><br>- You can now claim "Highlord " title from your Class Hall leader at Dalaran in Krasus' Landing. The quest acceptable only if you have the Part of History achievement.<br>- Missing emotes, waypoints and cosmetics on NPC-s and Object-s added.</p><br>
+<p><strong><span style="color: #abd473;">Hunter</span>:</strong><br>- You can now claim "Huntmaster " title from your Class Hall leader at Dalaran in Krasus' Landing. The quest acceptable only if you have the Part of History achievement.<br>- Essence Swapper has been fixed, and it's working well.<br>- Missing emotes, waypoints and cosmetics on NPC-s and Object-s added.</p><br>
+<p><strong><span style="color: #fff569;">Rogue</span>:</strong><br>- You can now claim "Shadowblade " title from your Class Hall leader at Dalaran in Krasus' Landing. The quest acceptable only if you have the Part of History achievement.<br>- Knockers and the Hidden Door fixed. They are usable only by Rogues and they are spawn you to the retail coordinates.<br>- Missing emotes, waypoints and cosmetics on NPC-s and Object-s added.</p><br>
+<p><strong><span style="color: #ffffff;">Priest</span>:</strong><br>- You can now claim "Hight Priest " title from your Class Hall leader at Dalaran in Krasus' Landing. The quest acceptable only if you have the Part of History achievement.<br>- Command Map Collision has been added. (No more trolls.)<br>- Missing emotes, waypoints and cosmetics on NPC-s and Object-s added.</p><br>
+<p><strong><span style="color: #0070de;">Shaman</span>:</strong><br>- You can now claim "Farseer " title from your Class Hall leader at Dalaran in Krasus' Landing. The quest acceptable only if you have the Part of History achievement.<br>- Missing Raider's and Dungeoner's Trainind Dummys spawned at the Training Ground.<br>- Missing emotes, waypoints and cosmetics on NPC-s and Object-s added.</p><br>
+<p><strong><span style="color: #69ccf0;">Mage</span>:</strong><br>- You can now claim "Archmage " title from your Class Hall leader at Dalaran in Krasus' Landing. The quest acceptable only if you have the Part of History achievement.<br>- Teleporters fixed. You can now teleport to the following zones: Azsuna, Val'sharah, Highmountain, Stormheim, Suramar.<br>- Missing emotes, waypoints and cosmetics on NPC-s and Object-s added.</p><br>
+<p><strong><span style="color: #a330c9;">Warlock</span>:</strong><br>- You can now claim "Netherlord " title from your Class Hall leader at Dalaran in Krasus' Landing. The quest acceptable only if you have the Part of History achievement.<br>- You can use your Artifact Weapon forge now without contacting with the Harpoon.<br>- Missing emotes, waypoints and cosmetics on NPC-s and Object-s added.</p><br>
+<p><strong><span style="color: #00ff96;">Monk</span>:</strong><br>- You can now claim "Grandmaster " title from your Class Hall leader at Dalaran in Krasus' Landing. The quest acceptable only if you have the Part of History achievement.<br>- Transportation Mandala's has been fixed. They are usable only by Monks and they are spawn you to the retail coordinates.<br>- Missing emotes, waypoints and cosmetics on NPC-s and Object-s added.</p><br>
+<p><strong><span style="color: #ff7d0a;">Druid</span>:</strong><br>- You can now claim "Archdruid " title from your Class Hall leader at Dalaran in Krasus' Landing. The quest acceptable only if you have the Part of History achievement.<br>- Dreamgrove aura has been added for Druids in Druid Order Hall.<br>- Missing emotes, waypoints and cosmetics on NPC-s and Object-s added.</p><br>
+<p><strong><span style="color: #a330c9;">Demon Hunter</span>:</strong><br>- You can now claim "Slayer " title from your Class Hall leader at Dalaran in Krasus' Landing. The quest acceptable only if you have the Part of History achievement.<br>- You can use your Artifact Weapon forge now without contacting with the Control Console.<br>- Missing emotes, waypoints and cosmetics on NPC-s and Object-s added.</p><br>
+<p><span style="color: #c41f3b;"><strong>Death Knight</strong></span>:<br>- You can now claim "Deathlord " title from your Class Hall leader at Dalaran in Krasus' Landing. The quest acceptable only if you have the Part of History achievement.<br>- The teleporter between the levels have been fixed. (No texture bug anymore.)<br>- Missing emotes, waypoints and cosmetics on NPC-s and Object-s added.</p>
+       	<hr>
+        <div id="info" class="clearfix text-shadow">
+        	<p id="post"></p>
+			<div style="width: 100%; text-align: left; display: inline-block;">
+            
+			</div>
+        </div>
+    </div>
+  </div> 
+
+  <div class="post box-shadow-inset">
+    <div class="post_header clearfix">
+        <div id="admin"></div>
+    </div>
+  	<div class="post_body_news">
+  		<p style="text-align: center;"><img src="/static/images/nighthold.jpg" alt="Gul'Dan - Nighthold" width="75%" height="30%"></p><br>
+<p style="text-align: center;"><strong>Sargeras 7.1.5</strong></p><br>
+<p><strong>Nighthold</strong><strong>:<br></strong>- <span style="color: #ff9900;"><a style="color: #ff9900;" title="Gul'dan" href="http://www.wowhead.com/guldan-nighthold-raid-strategy-guide">Gul'dan</a></span> available in all difficulties.<strong><br>- </strong><span style="color: #ff9900;"><a style="color: #ff9900;" title="Elisande" href="http://www.wowhead.com/elisande-nighthold-raid-strategy-guide">Elisande</a></span> available in all difficulties.<strong><br>- </strong><span style="color: #ff9900;"><a style="color: #ff9900;" title="Tichondrius" href="http://www.wowhead.com/tichondrius-nighthold-raid-strategy-guide">Tichondrius</a></span> available in all difficulties.<strong><br>- </strong><span style="color: #ff9900;"><a style="color: #ff9900;" title="Krosus" href="http://www.wowhead.com/krosus-nighthold-raid-strategy-guide">Krosus</a></span> available in all difficulties.<br><strong>- </strong><span style="color: #ff9900;"><a style="color: #ff9900;" title="High Botanist Tel'arn" href="http://www.wowhead.com/high-botanist-telarn-nighthold-raid-strategy-guide">High Botanist Tel'arn</a></span> available in all difficulties.<strong><br>- </strong>New checkpoint added at <span style="color: #ff9900;"><a style="color: #ff9900;" title="Spellblade Aluriel" href="http://www.wowhead.com/spellblade-aluriel-nighthold-raid-strategy-guide">Spellblade Aluriel</a></span>. You can release spirit closer to next encounters.</p><br>
+<p><strong>Druid:</strong><br>- <span style="color: #ff9900;"><a style="color: #ff9900;" title="Mastery: Nature's Guardian" href="http://www.wowhead.com/spell=155783/mastery-natures-guardian">Mastery: Nature's Guardian</a></span>&nbsp;reworked.</p><br>
+<p><strong>Items:</strong><br>- All <strong>Tier 19</strong> 2 and 4 piece Set bonuses are fixed.<br>- Hotfixes on <span style="color: #ff9900;"><a style="color: #ff9900;" title="Love is in the Air" href="http://www.wowhead.com/love-is-in-the-air">Love is in the Air</a></span> event perfumes.</p><br>
+<p style="text-align: center;"><strong>Monster 4.3.4</strong></p><br>
+<p><strong>Global Cooldown syncronization:</strong><br>- Now Global cooldown adjusted to you latency, it allow you to maximalize your DPS or react faster in PvP where every ms matter. It is noticeable mostly with high haste based classes. (Also implemented on Sargeras realm.)</p><br>
+<p><strong>Battleground rework:<br></strong>- <span style="color: #ff9900;"><a style="color: #ff9900;" title="Battle for Gilneas" href="http://www.wowhead.com/the-battle-for-gilneas">Battle for Gilneas</a></span> reworked. (Cache delete might be needed on Clientside!)</p><br>
+<p><strong>Pet follow rework:</strong><br>- Your companions now following you more accurate which provide better visual experience and better position for control them. (After feedbacks it will be implemented to Sargeras realm also.)</p><br>
+<p><strong>Combat management:</strong><br>- Rework spells which should or shouldn't give you "In combat", it makes sense in high rated Arena games the full list will updated later, also need feedback from our PvP testers.</p><br>
+<p>Quest and Content related fixes are continued by <strong>Wonderman</strong>, here is the full list just from January:</p><br>
+<p>- Orc (Valley of Trials / Durotar) -&gt; Storyline (Quests, Npcs scripts, Objects) <br>- Troll (Echo Isles / Durotar) -&gt;&nbsp;Storyline&nbsp;(Quests, Npcs scripts, Objects) <br>- Undead (Deathknell / Tirisfal Glades) -&gt;&nbsp;Storyline&nbsp;(Quests, Npcs scripts, Objects) <br>- Tauren (Camp Narache / Mulgore) -&gt;&nbsp;Storyline&nbsp;(Quests, Npcs scripts, Objects) <br>- Blood Elf (Sunstrider Isle / Eversong Woods) -&gt;&nbsp;Storyline&nbsp;(Quests, Npcs scripts, Objects) <br>- Item: <span style="color: #ff9900;"><a class="bbc_url" style="color: #ff9900;" title="Arrival of the Naaru" href="http://www.wowhead.com/item=64456/arrival-of-the-naaru" rel="external nofollow">Arrival of the Naaru</a></span> <br>- Item:&nbsp;<span style="color: #ff9900;"><a class="bbc_url" style="color: #ff9900;" title="The Last Relic of Argus" href="http://www.wowhead.com/item=64457/the-last-relic-of-argus" rel="external nofollow">The Last Relic of Argus</a></span> <br>- Twilight Highlands:&nbsp;Crucible of Carnage Arena<br>- <span style="color: #ff9900;"><a style="color: #ff9900;" title="Lunar Festival Event" href="http://www.wowhead.com/lunar-festival">Lunar Festival Event</a></span> <br>- Easter Egg: Whispering Forest [<span style="color: #ff9900;"><a class="bbc_url" style="color: #ff9900;" title="Faerie Dragons Event" href="https://www.youtube.com/watch?v=cPQXpOHwWag" rel="external nofollow">Faerie Dragons Event</a></span>]&nbsp; (takes place every 1 hour) <br>- Lots of&nbsp;Quest Markers (poi)&nbsp;<span style="color: #008000;"><strong><br>- </strong></span>Gnome (Gnomeregan / Dun Morogh)&nbsp;-&gt;&nbsp;Storyline&nbsp;(Quests, Npcs scripts, Objects) <br>- Added missing recipes in Cooking. <br>- Many reports from BT <span style="color: #008000;"><strong><br></strong></span>- Dwarf (Coldridge Valley / Dun Morogh)-&gt; Storyline (Quests, Npcs scripts, Objects) <br>- [<span style="color: #ff9900;"><a style="color: #ff9900;" title="Love is in the Air" href="http://www.wowhead.com/love-is-in-the-air">Love is in the Air</a></span>] Achievement&nbsp;<span style="color: #ff9900;"><a class="bbc_url" style="color: #ff9900;" title="Flirt With Disaster" href="http://www.wowhead.com/achievement=1279/flirt-with-disaster" rel="external nofollow">Flirt With Disaster</a></span>&nbsp;now obtainable for both fractions. <br>- Human (Northshire Valley / Elwynn Forest)-&gt; Storyline (Quests, Npcs scripts, Objects) <br>- [Horde] Daily quests for<span style="color: #800080;">&nbsp;<span style="color: #ff9900;"><a class="bbc_url" style="color: #ff9900;" title="Whistle of the Venomhide Ravasaur " href="http://www.wowhead.com/item=46102/whistle-of-the-venomhide-ravasaur" rel="external nofollow">Whistle of the Venomhide Ravasaur </a></span></span><br>- Loot for <span style="color: #ff9900;"><a class="bbc_url" style="color: #ff9900;" title="Bouquet of Red Roses" href="http://www.wowhead.com/item=22206/bouquet-of-red-roses" rel="external nofollow">Bouquet of Red Roses</a></span> and <span style="color: #ff9900;"><a class="bbc_url" style="color: #ff9900;" title="Bouquet of Ebon Roses" href="http://www.wowhead.com/item=44731/bouquet-of-ebon-roses" rel="external nofollow">Bouquet of Ebon Roses</a></span>&nbsp; according -&gt; <strong><a class="bbc_url" title="External link" href="https://wow.gamepedia.com/Bouquet_of_Red_Roses" rel="nofollow external">here</a> </strong><br>- [Old Players 2011/12] Refund NPC can refund achievement -&gt; <span style="color: #ff9900;"><a class="bbc_url" style="color: #ff9900;" title="An Honorable Kill" href="http://www.wowhead.com/achievement=238/an-honorable-kill" rel="external nofollow">An Honorable Kill</a></span> <br>- Night Elf (Shadowglen / Teldrassil)-&gt; Storyline (Quests, Npcs scripts, Objects)</p>
+       	<hr>
+        <div id="info" class="clearfix text-shadow">
+        	<p id="post"></p>
+			<div style="width: 100%; text-align: left; display: inline-block;">
+            
+			</div>
+        </div>
+    </div>
+  </div> 
+
+
+<center></center>
+</div>
+	<div class="container-fluid">
+		<iframe class="discordapp" src="https://discordapp.com/widget?id=305069268322484225&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+	</div>
+	<form role="form" action="login" method="post" >
+		<div class="modal fade " id="modal-login" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">SIGN IN</h4>
+					</div>
+					<div class="modal-body">
+						<div class="input-group" style="width:100%">
+							<span class="input-group-addon" id="basic-addon1" style="width:90px;text-align: left;">Username:</span>
+							<input type="text" class="form-control" value="" aria-describedby="basic-addon1"style="{color:black;!important}"  name="username">
+						</div>
+						<br>
+						<div class="input-group" style="width:100%">
+							<span class="input-group-addon " id="basic-addon1" style="width:90px;text-align: left;">Password:</span>
+							<input type="password" class="form-control" value="" aria-describedby="basic-addon1" style="{color:black;!important}" name="password">
+						</div>
+						<br>
+					</div>
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-info">Send</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+
+<video autoplay loop id="video-bg" muted plays-inline >
+		<source src="/static/videos/bg-video.mp4" type="video/mp4">
+	</video>
+<script>
+function myFunction(){
+	var x = document.getElementById("myTopnav");
+	if (x.className === "topnav"){
+		x.className += " responsive";
+	}else{
+		x.className="topnav";
+	}
+}
+</script>
+</body>
+</html>

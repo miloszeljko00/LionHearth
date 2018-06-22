@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>LionHearth®| Private WoW Server</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="/static/css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<script src="/static/bootstrap/js/jquery.js"></script>
+	<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+	
+   <div class="topnav" id="myTopnav">
+		<a href="{{ url_for('index') }}">Lion Heart®</a>
+		<a href="{{ url_for('download') }}" method="post"" >JOIN US</a>
+		<a href="{{ url_for('changelogs') }}">CHANGELOGS</a>
+		<a href="{{ url_for('shop') }}">SHOP</a>
+		<a href="http://lhwc.freeforums.net">FORUM</a>
+
+		<a href="{{ url_for('account') }}">ACCOUNT</a>
+		<a href="" data-toggle="modal" data-target="#modal-login" style="float:right;" class="logInOut">SIGN IN</a>
+		<a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	<div class="container-fluid registerContainer">
+	<div class="main-w3layouts wrapper">
+		<h1 class="register" align="center" >Register</h1>
+		<div class="main-agileinfo">
+			<div class="agileits-top"> 
+				<form action="{{ url_for('newAcc') }}" method="post"> 
+					<input class="text" type="text" name="username" placeholder="Username" required="">
+					<input class="text email" type="email" name="email" placeholder="Email" required="">
+					<input class="text" type="password" name="password" placeholder="Password" required="">
+					<input class="text w3lpass" type="password" name="password" placeholder="Confirm Password" required="">
+					<div class="wthree-text form-check">  
+						<input type="checkbox" class="checkbox  filled-in form-check-input" required="">
+						<label class="form-check-label">I Agree To The Terms & Conditions</label>
+						<div class="clear"> </div>
+					</div>   
+					<input type="submit">
+				</form>
+				<p>Already have an Account?
+					<a href="" data-toggle="modal" data-target="#modal-login"> Login Now!</a>
+				</p>
+			</div>	 
+		</div>
+ 	</div>
+	</div>
+
+
+	<form role="form" action="login" method="post" >
+		<div class="modal fade " id="modal-login" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">SIGN IN</h4>
+					</div>
+					<div class="modal-body">
+						<div class="input-group" style="width:100%">
+							<span class="input-group-addon" id="basic-addon1" style="width:90px;text-align: left;">Username:</span>
+							<input type="text" class="form-control" value="" aria-describedby="basic-addon1"style="{color:black;!important}"  name="username">
+						</div>
+						<br>
+						<div class="input-group" style="width:100%">
+							<span class="input-group-addon " id="basic-addon1" style="width:90px;text-align: left;">Password:</span>
+							<input type="password" class="form-control" value="" aria-describedby="basic-addon1" style="{color:black;!important}" name="password">
+						</div>
+						<br>
+					</div>
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-info">Send</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+
+	<img id="img-bg1"src="static/images/background.jpg" ></img>
+</body>
+</html>

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lion Heart® | Private Warcraft Server</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../bootstrap/css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="../bootstrap/js/jquery.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+  
+  
+  
+  
+  
+  
+  
+	<style>
+	
+	body{
+	font-family:'Lato',sans-serif;
+	font-size:40px;
+	color:white;
+	 background-size: cover; 
+		  background-size: 100% 100%;
+		  margin: 0px;
+		  font-family:Arial;
+		  z-index:-1;
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	  .slider {
+    width: auto;
+	padding:0px 200px;
+	padding-bottom:40px;
+   
+}
+
+.slick-slide {
+    background: $c1;
+    color: white;
+    padding: 40px 0;
+    font-size: 30px;
+    font-family: "Arial", "Helvetica";
+    text-align: center;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+    color: black;    
+}
+
+
+
+.slick-slide:nth-child(odd) {
+     background: $c2;
+}
+
+.slick-center {
+  font-size: 3em;
+}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+		.topnav {
+		  position:fixed	
+		  color: gold;
+		  font-weight: 400;
+		  font-family: "Open Sans",Arial,Helvetica,sans-serif;
+		  font-size: 12px;
+		  line-height: 0em;
+		  background: #000000 	;
+		  min-height: 55px;
+		  min-width: 320px;
+		  padding:14px 16px;
+		}
+		
+
+		.topnav a {
+		  float: left;
+		  display: block;
+		  color: gold;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 20px;
+		  border-radius: 5px;
+		}
+
+		.active {
+		  background-color: transplarent;
+		  color: white;
+		}
+
+		.topnav .icon {
+		  display: none;
+		}
+
+		.dropdown {
+			float: right;
+			overflow: hidden;
+			display: inline-block;
+		}
+
+		.dropdown .dropbtn {
+			font-size: 20px;    
+			border: none;
+			outline: none;
+			color: gold;
+			padding: 14px 16px;
+			background-color: inherit;
+			font-family: inherit;
+			margin: 0;
+			border-radius: 5px;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: grey;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+			margin-left:2%;
+		}
+
+		.dropdown-content a {
+			float: right;
+			color: gold;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: none;
+			text-align: left;
+		}
+
+		.topnav a:hover, .dropdown:hover .dropbtn {
+		  background-color: #362204;
+		  color: white;
+		  transition-duration: .5s;
+		  box-shadow: inset 0 0 0 1px white;
+		}
+
+		.dropdown-content a:hover {
+			background-color: red;
+			color: white;
+			transition-duration: .5s;
+		  box-shadow: inset 0 0 0 1px red;
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+
+		@media screen and (max-width: 1000px) {
+		  .topnav a:not(:first-child), .dropdown .dropbtn {
+			display: none;
+		  }
+		  .topnav a.icon {
+			float: right;
+			display: block;
+		  }
+		}
+
+		@media screen and (max-width: 1000px) {
+		  .topnav.responsive {position: relative;}
+		  .topnav.responsive .icon {
+			position: absolute;
+			right: 0;
+			top: 0;
+		  }
+		  .topnav.responsive a {
+			float: none;
+			display: block;
+			text-align: left;
+		  }
+		  .topnav.responsive .dropdown {float: none;}
+		  .topnav.responsive .dropdown-content {position: relative;}
+		  .topnav.responsive .dropdown .dropbtn {
+			display: block;
+			width: 100%;
+			text-align: left;
+		  }
+		}
+		.logo{
+			align:center;
+		}
+		
+			@media (min-aspect-ratio: 16/9) {
+			  .fullscreen-bg__video {
+				height: 300%;
+				top: -100%;
+			  }
+			}
+
+			@media (max-aspect-ratio: 16/9) {
+			  .fullscreen-bg__video {
+				width: 300%;
+				left: -100%;
+			  }
+			}
+
+			@media (max-width: 767px) {
+			  .fullscreen-bg {
+				background: url('images/bg-video.mp4') center center / cover no-repeat;
+			  }
+
+			  .fullscreen-bg__video {
+				display: none;
+			  }
+			}
+		#video-background {
+		/*  making the video fullscreen  */
+		  position: fixed;
+		  right: 0; 
+		  bottom: 0;
+		  min-width: 100%; 
+		  min-height: 100%;
+		  width: auto; 
+		  height: auto;
+		  z-index: -100;
+		}
+		
+		
+		.vanila{
+		width:auto;
+		height:670px;
+		position: relative;
+		background-image: url("./images/vanila.jpg");
+		background-size: cover; 
+		
+		}
+		
+		.tbc{
+		width:auto;
+		height:670px;
+		position: relative;
+		background-image: url("./images/tbc.jpg");
+		background-size: cover; 
+		}
+		
+		.wotlk{
+		width:auto;
+		height:670px;
+		position: relative;
+		background-image: url("./images/wotlk.jpg");
+		background-size: cover; 
+		}
+		
+		.cataclysm{
+		width:auto;
+		height:670px;
+		position: relative;
+		background-image: url("./images/cata.jpg");
+		background-size: cover; 
+		}
+		
+		.mop{
+		width:auto;
+		height:670px;
+		position: relative;
+		background-image: url("./images/mop.jpg");
+		background-size: cover; 
+		}
+		
+		.wod{
+		width:auto;
+		height:670px;
+		position: relative;
+		background-image: url("./images/wod.jpg");
+		background-size: cover; 
+		}
+		
+		.legoion{
+		width:auto;
+		height:670px;
+		position: relative;
+		background-image: url("./images/legion.jpg");
+		background-size: cover; 
+		}
+		
+		
+		.img1 {
+		float: left;
+		}
+		
+		.img2 {
+		float: right;
+		}
+		
+		
+	</style>
+</head>
+<body>
+  <video autoplay loop id="video-background" muted plays-inline>
+<source src="images/bg-video.mp4" type="video/mp4">
+</video>
+
+	<div class="topnav" id="myTopnav">
+		<a href="index1.html" >Lion Heart®</a>
+		<a href="#connect" >JOIN US</a>
+		<a href="#shop">SHOP</a>
+		<a href="http://lhwc.freeforums.net/">FORUM</a>
+		<a href="#singedin">ACCOUNT</a>
+		<a href="#singedin" style="float:right">SIGN IN</a>
+		  
+		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 <div class="slider">
+    <div><a href="#vanila"><img src="./images/retail1.jpg" height="490px" width="280px" ></div></a>
+    <div><a href="#tbc"><img src="./images/retail2.jpg" height="490px" width="280px" ></div></a>
+    <div><a href="#wotlk"><img src="./images/retail3.jpg" height="490px" width="280px" ></div></a>
+	<div><a href="#cataclysm"><img src="./images/retail4.png" height="490px" width="280px" ></div></a>
+    <div><a href="#mop"><img src="./images/retail5.jpg" height="490px" width="280px" ></div></a>
+	<div><a href="#wod"><img src="./images/retail6.jpg" height="490px" width="280px" ></div></a>
+    <div><a href="#legion"><img src="./images/retail7.jpg" height="490px" width="280px" ></div></a>
+	</div>
+
+	
+	
+
+	<div class="vanila" id="vanila">
+	
+	<p style="text-align:center;"><img src="./images/retail1.jpg" height="670px" align="left" class="img">
+	<br>VANILA
+<br>
+<br>
+	World of Warcraft (WoW) is a massively multiplayer online role-playing game(MMORPG) released in 2004 by Blizzard Entertainment.
+	
+	</p>
+	
+	</div>
+	
+	<div class="tbc" id="tbc">
+<p style="text-align:center;">	<img src="./images/retail2.jpg" height="670px" align="right">
+
+<br>THE BURNING CRUSADE
+<br>
+<br>
+Two new playable races were added to World of Warcraft in The Burning Crusade: the Draenei of the Alliance and the Blood Elves of the Horde. with the new races, the expansion allowed players to be a Draenei shaman (Alliance), and a Blood Elf paladin (Horde).
+
+
+	</p>
+	</div>
+	
+	<div class="wotlk" id="wotlk">
+	<p style="text-align:center;"><img src="./images/retail3.jpg" height="670px"  align="left">
+	<br>WRATH OF THE LICH KING
+	<br>
+	<br>
+	The game added a substantial amount of new content into the game world, including the new continent of Northrend, home of the eponymous Lich King and his undead minions. The first hero class was introduced, the Death Knight, that starts at level 55.</p>
+	
+	</div>
+	
+	<div class="cataclysm" id="cataclysm">
+	<p style="text-align:center;"><img src="./images/retail4.png" align="right" height="670px">
+	<br>CATACLYSM
+	<br>
+	<br>	
+	 Two new playable races have been added, the Worgen for the Alliance and Goblins for the Horde. In addition, existing classes have been expanded to be available to more races. The major cities of Orgrimmar and Stormwind experienced major changes. Lastly, the existing talent system has been overhauled.
+	 </p> </div>
+	
+	<div class="mop" id="mop">
+	<p style="text-align:center;"><img src="./images/retail5.jpg" height="670px"  align="left">
+	<br>MISTS OF PANDARIA
+<br>
+<br>	
+	<br>Mists of Pandaria raised the existing level cap from level 85 to 90. It introduced a new character class, the monk, along with a new playable race, the Pandaren. The vanity pet system was overhauled and a pet battle system was added. Scenarios were introduced, and Challenge Modes were added for dungeons. 
+	</p>
+	</div>
+	
+	
+	
+	
+	<div class="wod" id="wod">
+	<p style="text-align:center;">
+	<img src="./images/retail6.jpg" align="right" height="670px">
+		<br>WARLOrDS OF DRAENOR
+<br>
+<br>	The expansion allows players to level up to 100, an increase from the cap of 90 in the previous expansion Mists of Pandaria. It initially included eight 5-man dungeons and one raid, Highmaul, that opened in early December 2014. There was also a rebalancing of raid difficulty by the addition of a new difficulty called Mythic,</p>
+	</div>
+	
+	<div class="legoion" id="legion">
+	<p style="text-align:center;"><img src="./images/retail7.jpg" height="670px"  align="left">
+	<br>LEGION
+<br>
+<br>
+	
+	The expansion raises the existing level cap from 100 to 110, features artifact weapons for each class's specializations, includes a new area on Azeroth called the Broken Isles and introduces the demon hunter hero class that starts at level 98. It initially included ten 5-man dungeons and two raids.
+	</p>
+	</div>
+	<!--carousel-->
+	
+	 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+	
+
+	<script type="text/javascript">
+   $('.slider').slick({
+  centerPadding: '1px',
+    slidesToShow: 3,
+	focusOnSelect:true,
+  arrows:false,
+  dots:false,
+  autoplay:true,
+  autoplaySpeed:1500,
+  pauseOnHover:false,
+  
+  responsive: [
+    {
+      breakpoint: 500,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 1
+      }
+    },
+  
+  ]
+});
+ 
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+</body>
+</html>

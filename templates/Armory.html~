@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>hehexd</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="/static/css/style.css">
+	<script src="/static/bootstrap/js/jquery.js"></script>
+	<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+	
+   <div class="topnav" id="myTopnav">
+		<a href="{{ url_for('index') }}" >Lion Heart®</a>
+		<a href="{{ url_for('download') }}" method="post"" >JOIN US</a>
+		<a href="#shop">SHOP</a>
+		<a href="http://lhwc.freeforums.net">FORUM</a>
+		<a href="#armory">ARMORY</a>
+		<a href="#singedin">ACCOUNT</a>
+		<a href="" data-toggle="modal" data-target="#modal-login">SIGN IN</a>
+	</div>
+			
+
+
+< ? php
+	 $page = file_get_contents('//www.wowhead.com/item=73525');
+	    $doc = new DOMDocument();
+	    $doc->loadHTML($page);
+	    $divs = $doc->getElementsByTagName('div');
+	    foreach($divs as $div) {
+		// Loop through the DIVs looking for one withan id of "content"
+		// Then echo out its contents (pardon the pun)
+		if ($div->getAttribute('name') === 'icon') {
+		     echo $div->nodeValue;
+		}
+	    }
+	? >	
+
+				<div id="inventory-inner" class="summary-inventory summary-inventory-simple">
+					<div class="slot slot-1 item-quality-4" style="left: 60px; top: 0px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=73525" class="item">
+								<p>hehexd></p>
+									<img src="//wow.wowhead.com/item=73525" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-2 item-quality-4" style="left: 60px; top: 58px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=72308" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_jewelry_necklace_44.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-3 item-quality-4" style="left: 60px; top: 116px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=72426" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_shoulder_leather_pvprogue_c_02.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-4 item-quality-1" style="left: 60px; top: 290px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=16059" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_shirt_orange_01.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-5 item-quality-4" style="left: 60px; top: 232px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=73527" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_chest_leather_pvprogue_d_01.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-16 item-quality-4" style="left: 60px; top: 174px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=72305" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_misc_cape_16.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-9 item-quality-4" style="left: 60px; top: 406px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=72421" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_bracer_leather_pvprogue_c_02.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-19 item-quality-4" style="left: 60px; top: 348px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=69210" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_epicguildtabard.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-6 item-quality-4" style="top: 58px; right: 100px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=72416" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_belt_leather_pvprogue_c_02.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-7 item-quality-4" style="top: 116px; right: 100px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=73524" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_pants_leather_pvprogue_d_01.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-8 item-quality-4" style="top: 174px; right: 100px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=72418" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_boot_leather_pvprogue_c_02.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-10 item-quality-4" style="top: 0px; right: 100px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=73526" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_glove_leather_pvprogue_d_01.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-11 item-quality-4" style="top: 232px; right: 100px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=72311" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_79.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-11 item-quality-4" style="top: 290px; right: 100px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=72312" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_79.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-12 item-quality-4" style="top: 348px; right: 100px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=72304" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/spell_holy_championsbond.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-12 item-quality-4" style="top: 406px; right: 100px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=72410" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_jewelry_trinketpvp_02.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-21 item-quality-4" style="left: 214px; bottom: 0px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=70214" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_knife_1h_pvp410_c_01.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-22 item-quality-4" style="left: 279px; bottom: 0px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=70215" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_knife_1h_pvp410_c_01.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="slot slot-15 item-quality-0" style="left: 344px; bottom: 0px;">
+						<div class="slot-inner">
+							<div class="slot-contents">
+								<a target="_blank" href="//www.wowhead.com/item=70233" class="item">
+									<img src="//wow.zamimg.com/images/wow/icons/large/inv_thrown_1h_pvp410_c_01.jpg" alt="">
+									<span class="frame"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div id="model">
+						<div class="fc-panel fc-rectangle fc-trans" style="top: auto; left: auto; float: none; width: 100%; height: 100%; z-index: auto; overflow: visible; margin: 0px; display: block; ">
+							<div class="fc-toolbar fc-toolbar-animation-fade" style="padding: 10px; left: 0px; top: 0px; position: absolute; ">
+								<div class="fc-clickable fc-toolbar-button fc-toolbar-buttonshow fc-toolbar-buttonshow-on"></div>
+								<div class="fc-clickable fc-toolbar-button fc-toolbar-buttonhide fc-toolbar-buttonhide-on"></div>
+								<div class="fc-clickable fc-toolbar-button fc-toolbar-buttonadd"></div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<form role="form" action="login" method="post" >
+		<div class="modal fade " id="modal-login" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">SIGN IN</h4>
+					</div>
+					<div class="modal-body">
+						<div class="input-group" style="width:100%">
+							<span class="input-group-addon" id="basic-addon1" style="width:90px;text-align: left;">Username:</span>
+							<input type="text" class="form-control" value="" aria-describedby="basic-addon1"style="{color:black;!important}"  name="username">
+						</div>
+						<br>
+						<div class="input-group" style="width:100%">
+							<span class="input-group-addon " id="basic-addon1" style="width:90px;text-align: left;">Password:</span>
+							<input type="password" class="form-control" value="" aria-describedby="basic-addon1" style="{color:black;!important}" name="password">
+						</div>
+						<br>
+					</div>
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-info">Send</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+
+<video autoplay loop id="video-bg" muted plays-inline >
+		<source src="/static/videos/bg-video.mp4" type="video/mp4">
+	</video
+</body>
+</html>

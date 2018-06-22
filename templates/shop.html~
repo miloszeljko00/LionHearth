@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>LionHearth®| Private WoW Server</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="/static/css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<script src="/static/bootstrap/js/jquery.js"></script>
+	<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+          background-image: url("static/images/04.jpg");
+		  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+      
+        }
+        
+        
+        
+        
+        
+        
+
+
+		
+		
+		
+		
+		
+		
+	.ssidenav {
+
+	opacity:0.8;
+    height: 80%;
+    width: 15%;
+    position:relative;
+    z-index: 1;
+    left: 5%;
+	bottom:10%;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top:10px;
+
+	margin-bottom:10px;
+}	
+		
+	/* Style the sidenav links and the dropdown button */
+.ssidenav a, .dropdown-btn {
+    padding: 8px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* On mouse-over */
+.ssidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: green;
+    color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .ssidenav {padding-top: 15px;}
+    .ssidenav a {font-size: 18px;}
+}	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+   
+        
+        
+        
+        
+        
+        
+        
+
+
+/* Fixed sidenav, full height */
+.sidenav {
+opacity:0.8;
+    height: 80%;
+    width: 15%;
+    position:relative;
+    z-index: 1;
+    left: 5%;
+	bottom:10%;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top:78px;
+	 text-align: center;
+	margin-bottom:10px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+    padding: 8px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: green;
+    color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+padding-top:8px
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+	color:gold;;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+        
+        
+.divv{
+height:80%;
+width: 60%;
+left:30%;
+top:100px;
+ position: absolute;
+ background-color:black;
+ opacity:0.8;
+}
+        
+        
+
+
+
+.div2{
+z-index:-1;
+opacity:0.8;
+background:black;
+width:40%;
+height:auto;
+left:40%;
+top:20%;
+position:absolute;
+background-attachment:fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+
+        
+            @media (min-aspect-ratio: 16/9) {
+              .fullscreen-bg__video {
+                height: 300%;
+                top: -100%;
+              }
+            }
+            @media (max-aspect-ratio: 16/9) {
+              .fullscreen-bg__video {
+                width: 300%;
+                left: -100%;
+              }
+            }
+            @media (max-width: 767px) {
+              .fullscreen-bg {
+                background: url('images/bg-video.mp4') center center / cover no-repeat;
+              }
+              .fullscreen-bg__video {
+                display: none;
+              }
+            }
+        #video-background {
+        /*  making the video fullscreen  */
+          position: fixed;
+          right: 0; 
+          bottom: 0;
+          min-width: 100%; 
+          min-height: 100%;
+          width: auto; 
+          height: auto;
+          z-index: -100;
+        }
+	.shop{
+		position:absolute;
+	
+		top:30%;
+		z-index: 10000;
+		border:2px solid gold;
+		color:gold;
+		text-align:center;
+	}
+	.shop2{
+		border:2px solid gold;
+		
+		text-align:center;
+	}
+	.shop a{
+	color:gold;	
+	}
+    </style>
+</head>
+<body>
+   
+
+<div class="topnav" id="myTopnav">
+		<a href="{{ url_for('index') }}">Lion Heart®</a>
+		<a href="{{ url_for('download') }}" method="post"" >JOIN US</a>
+		<a href="{{ url_for('changelogs') }}">CHANGELOGS</a>
+		<a href="{{ url_for('shop') }}">SHOP</a>
+		<a href="http://lhwc.freeforums.net">FORUM</a>
+
+		<a href="{{ url_for('account') }}">ACCOUNT</a>
+		<a href="{{ url_for('logout') }}"style="float:right;" class="logInOut">SIGN OUT</a>
+		<a href="javascript:void(0);" style="font-size:24px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+        
+        
+        
+    
+
+<div class="sidenav">
+
+ <a href="#about"> <font color="gold">{% for coin in coins %}Coins: {{ coin[0] }}{% endfor %}</font></a>
+  
+  
+</div>  
+
+
+
+    
+        
+
+    
+<div class="ssidenav">
+
+  <button class="dropdown-btn"> <font color="gold">Select Realm </font>
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"> <font color="gold">Lion Heart</font></a>
+  </div>
+
+
+  
+  
+</div>  
+
+
+
+
+
+
+
+
+
+<div class="ssidenav">
+
+
+   <button class="dropdown-btn"> <font color="gold">Select Character</font>
+    <i class="fa fa-caret-down"></i>
+  </button>
+<div class="dropdown-container">
+  
+{% for character in characters %}
+
+    <form role="form" action="char" method="post" ><button class="dropdown-btn" name="char" value="{{character[0]}}"> <font color="gold">{{ character[0] }}</font></button></form>
+
+ 
+{% endfor %}
+  
+   </div> 
+</div>  
+
+
+
+
+
+
+
+ 
+<div class="ssidenav">
+  
+  
+   <form role="form" action="category" method="post" >
+
+
+  <button class="dropdown-btn" name="itemClass" type="submit" value="none SpecialOffers"><font color="gold">Special Offers</font></button>
+   <button class="dropdown-btn" name="itemClass" type="submit" value="none Weapons"><font color="gold">Weapons</font></button>
+  
+   <button type="button" class="dropdown-btn"><font color="gold">Gear</font>
+    <i class="fa fa-caret-down"></i>
+  </button>
+  
+ 
+  <div class="dropdown-container">
+     <button type="button" class="dropdown-btn"><font color="gold">Cloth</font>
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <button class="dropdown-btn" name="itemClass" type="submit" value="cloth Head"><font color="gold">Head</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="cloth Shoulders"><font color="gold">Shoulder</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="cloth Chest"><font color="gold">Chest</font></button>
+     <button class="dropdown-btn" name="itemClass" type="submit" value="cloth Waist"><font color="gold">Waist</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="cloth Legs"><font color="gold">Legs</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="cloth Feet"><font color="gold">Feet</font></button>
+     <button class="dropdown-btn" name="itemClass" type="submit" value="cloth Wirst"><font color="gold">Wirst</font></button>
+   <button class="dropdown-btn" name="itemClass" type="submit" value="cloth Hands"><font color="gold">Hands</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="cloth Back"><font color="gold">Back</font></button>
+  </div>
+  
+  
+   <button type="button" class="dropdown-btn"><font color="gold">Leather</font>
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <button class="dropdown-btn" name="itemClass" type="submit" value="leather Head">Head</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="leather Shoulders">Shoulder</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="leather Chest">Chest</font></button>
+     <button class="dropdown-btn" name="itemClass" type="submit" value="leather Waist">Waist</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="leather Legs">Legs</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="leather Feet">Feet</font></button>
+     <button class="dropdown-btn" name="itemClass" type="submit" value="leather Wirst">Wirst</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="leather Hands">Hands</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="leather Back"><font color="gold">Back</font></button>
+  </div>
+  
+  
+    <button type="button" class="dropdown-btn"><font color="gold">Mail</font>
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+   <button class="dropdown-btn" name="itemClass" type="submit" value="mail Head"><font color="gold">Head</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="mail Shoulders"><font color="gold">Shoulder</font></button>
+   <button class="dropdown-btn" name="itemClass" type="submit" value="mail Chest"><font color="gold">Chest</font></button>
+   <button class="dropdown-btn" name="itemClass" type="submit" value="mail Waist"><font color="gold">Waist</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="mail Legs"><font color="gold">Legs</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="mail Feet"><font color="gold">Feet</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="mail Wirst"><font color="gold">Wirst</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="mail Hands"><font color="gold">Hands</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="mail Back"><font color="gold">Back</font></button>
+  </div>
+  
+  
+    <button type="button" class="dropdown-btn"><font color="gold">Plate</font>
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+   <button class="dropdown-btn" name="itemClass" type="submit" value="plate Head"><font color="gold">Head</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="plate Shoulders"><font color="gold">Shoulder</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="plate Chest"><font color="gold">Chest</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="plate Waist"><font color="gold">Waist</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="plate Legs"><font color="gold">Legs</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="plate Feet"><font color="gold">Feet</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="plate Wirst"><font color="gold">Wirst</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="plate Hands"><font color="gold">Hands</font></button>
+    <button class="dropdown-btn" name="itemClass" type="submit" value="plate Back"><font color="gold">Back</font></button>
+  </div>
+  </div>
+
+  
+   <button class="dropdown-btn" name="itemClass" type="submit" value="none Mounts"><font color="gold">Mounts</font></a>
+ 
+  </form>
+  
+  
+  
+</div>  
+
+<div class="div2" style=:"background:red">
+<table class="shop" bgcolor="red">
+<tr class="shop2">
+	<td class="shop2" width="50px" height="50px"></td>
+	<td class="shop2" width="250px" height="50px" >Item name:</td>
+	<td class="shop2"width="100px" height="50px" >item price:</td>
+	<td class="shop2" width="150px" height="50px"></td>
+</tr>
+{% for item in items %}
+
+<tr>
+	<td ><img width="50px" height="50px" src="{{ item[3] }}"></td>
+	<td  width="250px" height="50px">{{ item[2] }}</td>
+	<td width="100px" height="50px">{{ item[1] }}</td>
+	<td width="150px" height="50px"><form role="form" action="buy" method="post" ><button class="dropdown-btn" name="buy" type="submit" value="{{item[0]}}"><font color="gold">Buy now!</font></button></td>
+</tr>
+
+
+{% endfor %}
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        
+        
+//dropdown        
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+        
+    
+
+
+
+
+
+
+
+    
+        
+        
+    </script>
+</body>
+</html>
